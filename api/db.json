@@ -1,0 +1,27 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "Testing Edit Function",
+      "description": "Testing edit function",
+      "userId": "116655305891975568013",
+      "id": 2
+    },
+    {
+      "title": "Go Home Page, You're drunk!",
+      "description": "Going back home",
+      "userId": "116655305891975568013",
+      "id": 3
+    },
+    {
+      "title": "Testing Refactor!",
+      "description": "testing refactor",
+      "userId": "116655305891975568013",
+      "id": 4
+    }
+  ]
+}
