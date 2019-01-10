@@ -5,6 +5,7 @@ import { signIn, signOut} from '../actions';
 class GoogleAuth extends Component {
 
   componentDidMount() {
+
     window.gapi.load('client:auth2', () => {
       window.gapi.client.init({
         clientId: '723401854873-jdpvtmtr9ufln8nkhd2ufi6damks7gf1.apps.googleusercontent.com',
@@ -33,6 +34,7 @@ class GoogleAuth extends Component {
     this.auth.signOut();
   };
 
+  // Changes the status of the 0Auth button
   renderAuthButton() {
     if (this.props.isSignedIn === null) {
       return null;
